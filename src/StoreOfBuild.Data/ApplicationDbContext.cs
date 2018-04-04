@@ -11,6 +11,6 @@ namespace StoreOfBuild.Data
         }
 
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Produties { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
