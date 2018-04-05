@@ -17,6 +17,7 @@ namespace StoreOfBuild.DI
             
             services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
             services.AddSingleton(typeof(CategoryStorer));
+            services.AddSingleton(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }
 }
